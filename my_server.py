@@ -35,8 +35,6 @@ class MyServer(Server32):
 
 
     def RunTranslate(self, japanese):
-        # return None
-
         return self.EncodeText (
             self.lib.J2K_TranslateMMNTW(
                 0,
